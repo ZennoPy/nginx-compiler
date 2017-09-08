@@ -112,7 +112,8 @@ cd $NGINX
 	--with-cc-opt='-O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic'
 
 make -j $(nproc)
-make install
+##make install
+checkinstall --install=no
 
 ## Naxsi rules
 if [ "${INSTALL_NAXSI}" == "yes" ]; then
