@@ -4,8 +4,8 @@
 ## Updated: 2017-07-25
 
 # Nginx
-#NGINX_VERSION="1.13.4" # 2017-08-08 (mainline)
-NGINX_VERSION="1.12.1" # 2017-07-11 (stable)
+NGINX_VERSION="1.13.4" # 2017-08-08 (mainline)
+#NGINX_VERSION="1.12.1" # 2017-07-11 (stable)
 
 # OpenSSL
 #OPENSSL_VERSION="1.1.0f" # 2017-05-25 (stable)
