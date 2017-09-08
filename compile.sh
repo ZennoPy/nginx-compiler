@@ -113,7 +113,7 @@ cd $NGINX
 
 make -j $(nproc)
 ##make install
-checkinstall --install=no
+sudo checkinstall -D
 
 ## Naxsi rules
 if [ "${INSTALL_NAXSI}" == "yes" ]; then
